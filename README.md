@@ -28,17 +28,17 @@ The file can be found in the data/ directory
 
 Write an Angular application which
 
-1.  reads the records from the sensor_readings.json
-2.  displays them in a tabular component (nothing too ugly)
-3.  allows the user to sort data by time and sensor type
+1.  reads the records from the sensor_readings.json (**DONE**)
+2.  displays them in a tabular component (nothing too ugly) (**DONE**)
+3.  allows the user to sort data by time and sensor type (**DONE**)
 
 #### Extra Tasks (two maximum)
 
-- allow user to enter new sensor data.
-- allows the user to filter data by sensor type/name.
+- allow user to enter new sensor data. (**DONE**)
+- allows the user to filter data by sensor type/name. (**DONE**)
 - plot a graph of sensor readings over time.
 - allow user to see sensor location on a map(use any lib google maps, openStreetMaps, openLayers, etc).
-- aggregate the data from all readings for the same sensor type, and compute the median of all its values. e.g
+- aggregate the data from all readings for the same sensor type, and compute the median of all its values. e.g (**DONE**)
 
 | Box         | Sensor Type | Median | Unit |
 | ----------- | ----------- | ------ | ---- |
