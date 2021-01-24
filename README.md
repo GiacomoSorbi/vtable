@@ -47,7 +47,24 @@ Write an Angular application which
 
 #### Submission
 
-Please include with your submission:
+I approached this project trying to maximise my immpact in the allotted amount of time, going for the mandatory parts first and then expanding upon them.
 
-- An explanation of any design decisions you've made (e.g. choice of libs, why you left parts out?, how you could improve this further, etc).
-- A brief guide on how to run the project.
+I decided to use a simple `create-react-app`-based template to get the core logic running as quickly as possible and then moved on implmenting more features.
+
+To run the project, please just clone it and then then in the project folder run
+
+```bash
+npm i; npm start
+```
+
+Alternatively, you can run
+
+```bash
+yarn; yarn start
+```
+
+In order to display the required amount of data, I decided to use `react-virtualized`, a popular library that, as the name implies, gives virtualisation functionalities which were highly recommended by the sheer size of data to be displayed and potentially manipulated with ease and a smooth UX.
+
+For the interface I pondered about employing `material-ui`, which I tend to favour to quickly setup interfaces, but ultimately found it might have been an overkill for our simple needs and opted to fall back to `react-bootstrap`.
+
+While well aware that only 2 extra tasks were required, I opted to complete a third one also to refresh myself how to handle tabular data with a specific library I have not been playing with for a while and ultimately decided to submit that too - I hope you won't mind it much and feel free to otherwise ignore that.
